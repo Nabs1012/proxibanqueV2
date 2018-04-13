@@ -18,15 +18,14 @@ Si execution sur Eclipse
 - Eclipse paramétré sur la JDK et le serveur d'application web especifiées précedemmment
 
 	
-
-
-Installation instructions (Getting Started)
+Execution sur Tomcat
 -------------------------------------------
-- verifier que votre serveur d'applications web n'est pas allumé en double-cliquant le fichier "startup.bat" du répertoire "bin" d'installation de votre serveur tomcat.
+- allumer le serveur d'applications en double-cliquant le fichier "startup.bat" du répertoire "bin" d'installation de votre serveur tomcat.
 - démarrer votre serveur de base de données Wamp en double-cliquant sur le fichier "wampmanager.exe" du répertoire d'installation de votre serveur Wamp.
-- dans le dossier "A COMPLETER", copier le fichier A COMPLETER.war
-- copier le fichier A COMPLETER.war dans le dossier  du répertoire d'installation du serveur tomcat.
-- ouvrez votre COMPLETER
+- dans le dossier 'proxibanqueWebapp/target/' , copier le fichier 'proxibanqueWebapp.war'
+- copier le fichier proxibanqueWebapp.war dans le dossier 'webapps' du répertoire d'installation  du serveur tomcat.
+- Vérifier que le fichier proxibanqueWebapp.war se dézipe dans un répertoire proxibanqueWebapp
+- Ouvrir un Navigateur Web entrer localhost:8080/proxibanqueWebapp dans la barre d'adresse
 
 Build with
 ----------
